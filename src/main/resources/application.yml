@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Ludotheque
+  datasource:
+    url: jdbc:sqlserver://localhost;databasename=LUDO_DB;encrypt=false
+    username: sa
+    password: "Pa$$w0rd"
+  jpa:
+    show-sql: true
+    hibernate:
+     ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
